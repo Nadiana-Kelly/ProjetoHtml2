@@ -1,0 +1,83 @@
+<!DOCTYPE html>              
+<html lang="pt-br">
+<head> <!-- cabeça -->
+    <meta charset="UTF-8"> <!-- poder ter ascentos nas palavras -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Flori-Agendamento</title> <!-- nome na barra do site -->
+    <link rel="stylesheet" type="text/css" href="stilo.css" media="screen" />
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js " crossorigin = " anonymous " ></script>
+</head>
+<body><!-- corpo -->
+    <div class="barra">
+        <div class="icone">
+            <a href="#">
+                <i class="fas fa-seedling"> </i>
+                ヤマンカの花 - Flores Yamanaka
+            </a>
+        </div>
+
+    </div>
+    <div>
+        <main class="imagines">
+            <img src="flor.PNG">
+            <p>"Você não acha triste as flores que não florescem? Veja este pequeno botão por exemplo, ele poderia se tornar uma flor ainda mais bonita que a cosmos"</p>
+        </main>
+    </div>
+   <main class="container">
+
+        <h2>Agendamento</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name= "username" id="nome" placeholder ="Nome">
+            <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <select name="select">
+                <option value="Girassol">Flores - Girassol - Himawari</option>
+                <option value="Tulipas">Flores - Tulipas - Akaichurippu</option>
+                <option value="Cerejeira">Flores - Flor de Cerejeira  - Sakura</option>
+                <option value="Sino azul">Flores - Sino Azul - Buruberu</option>
+                <option value="Rosas">Flores - Rosas  - Bara</option>
+                <option value="Camelia">Flores - Camelia - Tsubaki</option>
+                <option value="Gloria da manha">Flores - Gloria da manhã - Asagao</option>
+                <option value="Ameixa">Flores - Flor de ameixa - Ume</option>
+                </select>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" name= "embrulho" id="embrulho" placeholder ="Embrulho">
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <select name="select">
+                    <option value="Cartão - Em branco para preencher" selected >Cartão - Em branco para preencher</option>
+                    <option value="Cartão - Mensagem de aniversário">Cartão - Mensagem de aniversário</option>
+                    <option value="Cartão - Mensagem romântica">Cartão - Mensagem romântica</option>
+                    <option value="Cartão - Mensagem de amizade">Cartão - Mensagem de amizade</option>
+                    <option value="Cartão - Mensagem de parabéns">Cartão - Mensagem de parabéns</option>
+                    <option value="Cartão - Nenhum">Nenhum</option>
+                    </select>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <input type="tel" name= "telefone" id="telefone" placeholder ="Telefone" pattern="^\d{2}-\d{1}-\d{8}$">
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <select name="select">
+                    <option value="Pagamento - Cartão de crédito" selected >Pagamento - Cartão de crédito</option>
+                    <option value="Pagamento - Á vista">Pagamento - Á vista</option>
+                    </select>
+                <div class="underline"></div>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
+
