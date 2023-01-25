@@ -1,2 +1,3 @@
 # Site de Floricultura
-![image](https://user-images.githubusercontent.com/82840116/155401756-6c345d5c-953e-473b-b629-52100347654e.png)
+![image](https://user-images.githubusercontent.com/82840116/214611845-1fbc2f86-4558-4b96-a8e4-1b9be924785b.png)
+
